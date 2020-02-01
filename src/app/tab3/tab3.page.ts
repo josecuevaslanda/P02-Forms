@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
 export class Tab3Page {
 
   constructor() {}
-
+  public form = [
+    { val: 'Terror', isChecked: true },
+    { val: 'Comedia', isChecked: false },
+    { val: 'Accion', isChecked: false }
+  ];
 }
